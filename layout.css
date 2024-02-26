@@ -1,0 +1,146 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: curri; }
+.item3 { grid-area: form; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'curri curri form'
+    'curri curri form'
+    'curri curri form';
+  gap: 5px;
+  padding: 10px;
+}
+
+body{
+  background-color: #f4acb7;
+  font-family: courier, monospace;
+}
+
+h1, h2, p, h3{
+  color:#7D5A64;
+}
+
+/*--header--*/
+.item1{
+  height: 120px;
+  background-color: #ffe5d9;
+  border-radius: 40px;
+  border: 4px solid #7D5A64 ;
+}
+
+.item1 h1, h2{
+  text-align: center;
+}
+
+
+/*--curri--*/
+.item2 {
+  border-radius: 40px;
+  background-color: #ffcad4;
+  border: 4px solid #7D5A64;
+  height: 550px;
+  width: 900px;
+}
+.curriculum{
+  background-color: #FFF7F4;
+  width: 720px;
+  height: 470px;
+  margin-left: 140px;
+  border-radius: 40px;
+}
+
+.cur1{
+  background-color: #ffe5d9;
+  margin-left: -80px;
+  width: 230px;
+  height: 470px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  float: left;
+  box-shadow: 5px 5px 10px #A5B3AE;
+}
+
+.cur1 img{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  border-radius: 100px;
+  border: 6px solid #EAC898;
+}
+
+.cur1 h2{
+  text-decoration: underline;
+}
+
+.cur1 h3{
+  padding-left: 15px;
+  margin-bottom: -5px;
+}
+
+.cur1 p{
+  padding-left: 20px;
+}
+
+
+.cur2{
+  padding-top: 30px;
+  padding-left: 200px;
+  word-break: break-word;
+}
+
+.cur2 h1{
+  text-align: right;
+  padding-right: 30px;
+}
+
+.cur2 h2{
+  text-align: left;
+}
+
+
+/*--form--*/
+.item3 {
+  border-radius: 40px;
+  background-color: #d8e2dc;
+  border: 4px solid #7D5A64;
+  height: 550px;
+  width: 500px;
+  word-break: break-word;
+
+}
+
+.item3 form{
+  padding-left: 30px;
+  padding-right: 20px;
+  color:#7D5A64;
+
+}
+
+.item3 fieldset{
+  border-radius: 15px;
+  padding:20px ;
+}
+
+input[type=submit] {
+  background-color: #f4acb7;
+  border: 1px solid #7D5A64;
+  border-radius: 15px;
+  color: white;
+  font-size: 15px;
+  padding: 14px 30px;
+  margin-left: 15%;
+  cursor: pointer;
+  box-shadow: 5px 2px 5px #86B3A3;
+  text-align: center;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: #7D5A64;
+  color: #f4acb7;
+
+}
+
+

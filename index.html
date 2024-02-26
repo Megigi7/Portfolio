@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+  <link rel = "stylesheet" href="layout.css">
+  <script type="text/javascript" src="funciones.js"></script>
+  <title>Portfolio</title>
+  </head>
+  
+  <body> 
+    <div class="grid-container">
+      <div class="item1">
+        <h1>-ˊˎ ࿐ྀೄ☾༓･*˚⁺͙‧࿐°*˖✧.Portfolio personal.✧˖*°࿐‧͙⁺˚*･༓☾ೄྀ࿐ ˊˎ-</h1>
+        <h2>María Alves</h2>
+      </div>
+
+      <div class="item2">
+        <h2>*+:｡.｡　Currículum　｡.｡:+*</h2>
+        <div class="curriculum">
+
+          <div class="cur1">
+            <img src="icon.png">
+            <h2>Programadora</h2>
+            <h3>• Herramientas:</h3>
+            <ul>
+              <li>Software de edición</li>
+              <li>Programación Java</li>
+              <li>Gestión de BD</li>
+            </ul>
+            <h3>• Idiomas:</h3>
+            <ul>
+              <li>Español</li>
+              <li>Inglés</li>
+            </ul>
+          </div>
+
+
+          <div class="cur2">
+            <h1>María Alves</h1>
+            <h2>○ Experiencia</h2>
+            <p>┆ Formación en centros de trabajo</p>
+            <h2>○ Formación</h2>
+            <p>┆ CFGM Sistemas Micrinformáticos y Redes (2021-2023)</p>
+            <p>┆ Educación secundaria obligatoria (2017-2021)</p>
+            <h2> ----- Cualidades -----</h2>
+            <p> -Buen trabajo en equipo</p>
+            <p> -Buen rednimiento bajo presión</p>
+            <p> -Perfeccionismo</p>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="item3">
+        <h2>*+:｡.｡　Formulario de contacto　｡.｡:+*</h2>
+        <form>
+          <fieldset> 
+            <legend><b>Introduzca sus datos</b></legend>      
+            Nombre: <input type="text" id="nombre" name="nombre" required> <br> <br>
+            Apellidos: <input type="text" id="apellidos" name="apellidos" required> <br> <br>
+            Email: <input type="text" id="email" name="email" required><br><br>
+            Teléfono: <input type="text" id="telef" name="telef" required> <br><br>
+            <textarea name="comentario" placeholder="Información adicional que quiera añadir" rows="6" cols="60" id="comentario"></textarea><br><br>
+            <fieldset>
+              <legend>Concretar reunión ---<i>opcional</i>---</legend>
+                Elija una hora <input type="time" name="hora" id="hora"><br>
+                Elija una fecha <input type="date" name="fecha" min= "2024-02-14" id="fecha"><br>
+            </fieldset> <br>
+            <input type="submit" value="Enviar" onclick="mostrardatos()">
+            <input type="submit" value="Limpiar" onclick="limpiar()">
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
